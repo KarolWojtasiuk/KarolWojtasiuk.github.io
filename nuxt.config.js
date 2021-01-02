@@ -9,8 +9,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - karolwojtasiuk.github.io',
-    title: 'karolwojtasiuk.github.io',
+    titleTemplate: 'Karol Wojtasiuk - %s',
+    title: 'Home',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
