@@ -1,21 +1,21 @@
 <header id="particles">
     <div id="header-content">
         <h1>
-            <span id="fullname">{{ page.full_name }}</span>
-            <span id="title">{{ page.title }}</span>
+            <span id="fullname">{{ layout.full_name }}</span>
+            <span id="title">{{ layout.title }}</span>
         </h1>
         <div id="header-icons">
-            <a aria-label="Test" href="#">
-                <i class="icon fas fa-font"></i>
+            <a aria-label="Email" href="mailto:{{ layout.email | encode_email }}">
+                <i class="icon fas fa-envelope"></i>
             </a>
-            <a aria-label="Test" href="#">
-                <i class="icon fas fa-bold"></i>
+            <a aria-label="GitHub" href="https://github.com/{{ layout.github }}" target="_blank">
+                <i class="icon fas devicon-github-plain"></i>
             </a>
-            <a aria-label="Test" href="#">
-                <i class="icon fas fa-underline"></i>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/in/{{ layout.linkedin }}" target="_blank">
+                <i class="icon fas devicon-linkedin-plain"></i>
             </a>
-            <a aria-label="Test" href="#">
-                <i class="icon fas fa-align-center"></i>
+            <a aria-label="Twitter" href="https://twitter.com/{{ layout.twitter }}" target="_blank">
+                <i class="icon fas devicon-twitter-plain"></i>
             </a>
         </div>
         <div id="header-links">

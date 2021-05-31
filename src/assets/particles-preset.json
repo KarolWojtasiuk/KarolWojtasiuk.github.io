@@ -145,7 +145,7 @@
               ""
             ],
             "particles": {
-              "color": "#181616"
+              "color": "#fff"
             },
             "weight": "400"
           },
@@ -167,7 +167,7 @@
               ""
             ],
             "particles": {
-              "color": "#000"
+              "color": "#fff"
             },
             "weight": "400"
           },

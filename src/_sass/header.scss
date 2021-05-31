@@ -10,17 +10,17 @@ header {
   min-height: 100vh;
   background-size: cover;
   background: $header-primary no-repeat fixed;
+  user-select: none;
 
   .tsparticles-canvas-el {
     background-color: $header-primary !important;
-    z-index: 0 !important; 
+    z-index: 0 !important;
     width: 100% !important;
     height: 100vh !important;
   }
 }
 
 #header-content {
-  user-select: none;
   z-index: 1;
   text-align: center;
   color: $header-accent;
@@ -78,7 +78,7 @@ header {
     width: 20px;
     height: 20px;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
     border-radius: 50%;
     border: 2px solid $header-accent;
@@ -131,6 +131,24 @@ header {
 
     &:active {
       color: $header-secondary;
+    }
+  }
+
+  @keyframes pulse {
+    from {
+      filter: alpha(opacity=40);
+      opacity: .4;
+      top: 0
+    }
+    50% {
+      filter: none;
+      opacity: 1;
+      top: -10px
+    }
+    to {
+      filter: alpha(opacity=40);
+      opacity: .4;
+      top: 0
     }
   }
 }
