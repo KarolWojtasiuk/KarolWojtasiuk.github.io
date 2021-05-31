@@ -4,7 +4,7 @@
 
 $fa-font-path: "../fonts";
 
-@import "./normalize";
-@import "./fontawesome/fontawesome";
-@import "./fontawesome/solid";
-@import "./header";
+@import "./normalize.scss";
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./header.scss";
