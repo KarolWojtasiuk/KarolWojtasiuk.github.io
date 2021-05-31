@@ -5,8 +5,22 @@
 $fa-font-path: "../fonts/fontawesome";
 $devicon-font-path: "../fonts/devicon";
 
+$primary: #001219;
+$secondary: #ee9b00;
+$accent: #e9d8a6;
+$mobile-width: 550px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+
 @import "./normalize.scss";
 @import "./fontawesome/fontawesome.scss";
 @import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
 @import "./devicon.scss";
 @import "./header.scss";
+@import "./footer.scss";
+
+* {
+  font-family: Roboto, sans-serif;
+}

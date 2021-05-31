@@ -1,6 +1,6 @@
 {
   "fullScreen": {
-    "enable": true,
+    "enable": false,
     "zIndex": 0
   },
   "interactivity": {
@@ -212,6 +212,17 @@
             ],
             "particles": {
               "color": "#41b883"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#f0db4f"
             },
             "weight": "400"
           }

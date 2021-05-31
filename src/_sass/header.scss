@@ -1,19 +1,14 @@
-$header-primary: #001219;
-$header-secondary: #ee9b00;
-$header-accent: #e9d8a6;
-$mobile-width: 550px;
-
 header {
   display: flex;
   vertical-align: bottom;
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-  background: $header-primary no-repeat fixed;
+  background: $primary no-repeat fixed;
   user-select: none;
 
   .tsparticles-canvas-el {
-    background-color: $header-primary !important;
+    background-color: $primary !important;
     z-index: 0 !important;
     width: 100% !important;
     height: 100vh !important;
@@ -21,20 +16,34 @@ header {
 }
 
 #header-content {
-  z-index: 1;
+    z-index: 1;
   text-align: center;
-  color: $header-accent;
+  color: $accent;
   position: absolute;
   top: 50%;
   left: 50%;
   margin: 0 auto;
   transform: translate(-50%, -50%);
 
+  h1 > * {
+    font-family: Quicksand, sans-serif !important;
+  }
+
+  * > a {
+    color: $secondary;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    @media only screen and (min-width: $mobile-width) {
+      font-size: 20px;
+    }
+  }
+  
   #fullname {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: $header-accent;
+    color: $accent;
     @media only screen and (min-width: $mobile-width) {
       margin: 0;
       font-size: 100px;
@@ -45,7 +54,7 @@ header {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: $header-accent;
+    color: $accent;
     margin-top: 10px;
     @media only screen and (min-width: $mobile-width) {
       font-size: 40px;
@@ -57,7 +66,7 @@ header {
   margin: 10px;
 
   .link {
-    color: $header-accent;
+    color: $accent;
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -74,24 +83,24 @@ header {
 
   .icon {
     text-align: center;
-    color: $header-accent;
+    color: $accent;
     width: 20px;
     height: 20px;
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     border-radius: 50%;
-    border: 2px solid $header-accent;
+    border: 2px solid $accent;
     transition: all .7s;
 
     &:hover {
-      color: $header-primary;
-      background: $header-accent;
+      color: $primary;
+      background: $accent;
     }
 
     &:active {
-      color: $header-primary;
-      background: $header-accent;
+      color: $primary;
+      background: $accent;
     }
 
     @media only screen and (min-width: $mobile-width) {
@@ -103,7 +112,7 @@ header {
 }
 
 #down {
-  color: $header-accent;
+  color: $accent;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -122,15 +131,15 @@ header {
     transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
-    fill: $header-accent;
+    fill: $accent;
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: $header-secondary;
+      color: $secondary;
     }
 
     &:active {
-      color: $header-secondary;
+      color: $secondary;
     }
   }
 
@@ -138,17 +147,17 @@ header {
     from {
       filter: alpha(opacity=40);
       opacity: .4;
-      top: 0
+      top: -30px
     }
     50% {
       filter: none;
       opacity: 1;
-      top: -10px
+      top: -40px
     }
     to {
       filter: alpha(opacity=40);
       opacity: .4;
-      top: 0
+      top: -30px
     }
   }
 }
