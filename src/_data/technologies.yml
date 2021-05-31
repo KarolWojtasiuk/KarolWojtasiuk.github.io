@@ -1,11 +1,9 @@
 - category: Frontend
   image: /assets/img/blazor.png
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus fugiat nemo quod suscipit unde. Beatae culpa dolorem impedit incidunt molestias neque sit tempore vitae! Ullam.
+  description: I like <b>Blazor</b> the most, when I need to create a website, I usually use this technology. <b>C#</b> as a frontend language is a game-changer for me. But in the past, I was using <b>Vue.js</b> or plain <b>HTML/CSS/JS</b>, so I can also use this tech stack.
 - category: Backend
   image: /assets/img/aspnetcore.png
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus fugiat nemo quod suscipit unde. Beatae culpa dolorem impedit incidunt molestias neque sit tempore vitae! Ullam.
+  description: When it comes to backend, I prefer using <b>ASP.NET Core</b>. Thanks to this technology, I began enjoying backend work, stuff like built-in <b>Dependency Injection</b> make life easier with this framework.
 - category: Game Engine
   image: /assets/img/unity.png
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus fugiat nemo quod suscipit unde. Beatae culpa dolorem impedit incidunt molestias neque sit tempore vitae! Ullam.
-
-#  TODO: Add descriptions;
+  description: I used a lot of game engines until I found <b>Unity</b>. I used to play games so I've always been interested in <b>game development</b>, I made some small <b>2D games</b> but none of them are public.
