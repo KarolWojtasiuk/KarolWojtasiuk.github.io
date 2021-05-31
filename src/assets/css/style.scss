@@ -2,9 +2,11 @@
 #info Keep this YAML front matter block to trigger Jekyll processing
 ---
 
-$fa-font-path: "../fonts";
+$fa-font-path: "../fonts/fontawesome";
+$devicon-font-path: "../fonts/devicon";
 
 @import "./normalize.scss";
 @import "./fontawesome/fontawesome.scss";
 @import "./fontawesome/solid.scss";
+@import "./devicon.scss";
 @import "./header.scss";

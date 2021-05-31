@@ -1,6 +1,6 @@
-$primary: #1a222c;
-$secondary: #4B5664;
-$accent: #FFF;
+$header-primary: #001219;
+$header-secondary: #ee9b00;
+$header-accent: #e9d8a6;
 $mobile-width: 550px;
 
 header {
@@ -9,10 +9,11 @@ header {
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-  background: $primary no-repeat fixed;
+  background: $header-primary no-repeat fixed;
 
   .tsparticles-canvas-el {
-    background-color: $primary !important;
+    background-color: $header-primary !important;
+    z-index: 0 !important; 
     width: 100% !important;
     height: 100vh !important;
   }
@@ -21,7 +22,7 @@ header {
 #header-content {
   z-index: 1;
   text-align: center;
-  color: $accent;
+  color: $header-accent;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,7 +34,7 @@ header {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: $accent;
+    color: $header-accent;
     @media only screen and (min-width: $mobile-width) {
       margin: 0;
       font-size: 100px;
@@ -44,7 +45,7 @@ header {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: $accent;
+    color: $header-accent;
     margin-top: 10px;
     @media only screen and (min-width: $mobile-width) {
       font-size: 40px;
@@ -56,7 +57,7 @@ header {
   margin: 10px;
 
   .link {
-    color: $accent;
+    color: $header-accent;
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -73,24 +74,24 @@ header {
 
   .icon {
     text-align: center;
-    color: $accent;
+    color: $header-accent;
     width: 20px;
     height: 20px;
     font-size: 20px;
     padding: 10px;
     margin: 5px;
     border-radius: 50%;
-    border: 2px solid $accent;
+    border: 2px solid $header-accent;
     transition: all .7s;
 
     &:hover {
-      color: $primary;
-      background: $accent;
+      color: $header-primary;
+      background: $header-accent;
     }
 
     &:active {
-      color: $primary;
-      background: $accent;
+      color: $header-primary;
+      background: $header-accent;
     }
 
     @media only screen and (min-width: $mobile-width) {
@@ -102,7 +103,7 @@ header {
 }
 
 #down {
-  color: $accent;
+  color: $header-accent;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -111,6 +112,7 @@ header {
   text-align: center;
   font-size: 30px;
   cursor: pointer;
+  z-index: 1;
 
   .icon {
     position: absolute;
@@ -122,16 +124,16 @@ header {
     -webkit-transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
-    fill: $accent;
+    fill: $header-accent;
     animation: pulse 1.3s infinite;
     -webkit-animation: pulse 1.3s infinite;
 
     &:hover {
-      color: $secondary;
+      color: $header-secondary;
     }
 
     &:active {
-      color: $secondary;
+      color: $header-secondary;
     }
   }
 }
