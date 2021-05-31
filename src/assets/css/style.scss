@@ -1,0 +1,10 @@
+---
+#info Keep this YAML front matter block to trigger Jekyll processing
+---
+
+$fa-font-path: "../fonts";
+
+@import "./normalize";
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/solid";
+@import "./header";

@@ -1,0 +1,137 @@
+$primary: #1a222c;
+$secondary: #4B5664;
+$accent: #FFF;
+$mobile-width: 550px;
+
+header {
+  display: flex;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background: $primary no-repeat fixed;
+
+  .tsparticles-canvas-el {
+    background-color: $primary !important;
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
+
+#header-content {
+  z-index: 1;
+  text-align: center;
+  color: $accent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  #fullname {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    color: $accent;
+    @media only screen and (min-width: $mobile-width) {
+      margin: 0;
+      font-size: 100px;
+    }
+  }
+
+  #title {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: $accent;
+    margin-top: 10px;
+    @media only screen and (min-width: $mobile-width) {
+      font-size: 40px;
+    }
+  }
+}
+
+#header-links {
+  margin: 10px;
+
+  .link {
+    color: $accent;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    @media only screen and (min-width: $mobile-width) {
+      font-size: 20px;
+    }
+  }
+}
+
+#header-icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .icon {
+    text-align: center;
+    color: $accent;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid $accent;
+    transition: all .7s;
+
+    &:hover {
+      color: $primary;
+      background: $accent;
+    }
+
+    &:active {
+      color: $primary;
+      background: $accent;
+    }
+
+    @media only screen and (min-width: $mobile-width) {
+      width: 35px;
+      height: 35px;
+      font-size: 35px;
+    }
+  }
+}
+
+#down {
+  color: $accent;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+
+  .icon {
+    position: absolute;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: $accent;
+    animation: pulse 1.3s infinite;
+    -webkit-animation: pulse 1.3s infinite;
+
+    &:hover {
+      color: $secondary;
+    }
+
+    &:active {
+      color: $secondary;
+    }
+  }
+}
