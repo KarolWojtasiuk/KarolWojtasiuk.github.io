@@ -2,7 +2,7 @@ main#about {
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
   @media only screen and (min-width: $mobile-width) {
     width: 80%;
@@ -16,7 +16,7 @@ main#about {
   h2 {
     text-align: center;
     font-family: Quicksand, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 0;
   }
 

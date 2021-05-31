@@ -5,9 +5,9 @@
 $fa-font-path: "../fonts/fontawesome";
 $devicon-font-path: "../fonts/devicon";
 
-$primary: #001219;
+$primary: #e9d8a6;
 $accent: #ee9b00;
-$background: #e9d8a6;
+$background: #001219;
 $mobile-width: 550px;
 $mobile-width2: 800px;
 
@@ -24,6 +24,6 @@ $mobile-width2: 800px;
 
 html, body {
   margin: 0;
-  background-color: $background;
+  background-color: $primary;
   font-family: Montserrat, sans-serif;
 }

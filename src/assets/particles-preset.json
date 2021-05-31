@@ -30,7 +30,7 @@
   "particles": {
     "links": {
       "color": {
-        "value": "#FFF"
+        "value": "#ee9b00"
       },
       "distance": 150,
       "enable": true,
