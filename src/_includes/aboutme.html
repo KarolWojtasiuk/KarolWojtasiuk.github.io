@@ -1,0 +1,17 @@
+<main id="about">
+    <h1>About Me</h1>
+    <p>{{ layout.about }}</p>
+
+    <br>
+
+    <h2>Favorite technologies</h2>
+    <section id="technologies">
+        {% for technology in site.data.technologies %}
+        <div class="technology">
+            <h3>{{ technology.category }}</h3>
+            <img alt="{{ technology.category }}" src="{{ technology.image | relative_url}}">
+            <p>{{ technology.description }}</p>
+        </div>
+        {% endfor %}
+    </section>
+</main>

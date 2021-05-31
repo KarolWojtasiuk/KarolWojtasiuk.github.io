@@ -16,9 +16,9 @@ header {
 }
 
 #header-content {
-    z-index: 1;
+  z-index: 1;
   text-align: center;
-  color: $accent;
+  color: $background;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,11 +26,11 @@ header {
   transform: translate(-50%, -50%);
 
   h1 > * {
-    font-family: Quicksand, sans-serif !important;
+    font-family: Quicksand, sans-serif;
   }
 
   * > a {
-    color: $secondary;
+    color: $accent;
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -38,12 +38,12 @@ header {
       font-size: 20px;
     }
   }
-  
+
   #fullname {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: $accent;
+    color: $background;
     @media only screen and (min-width: $mobile-width) {
       margin: 0;
       font-size: 100px;
@@ -54,7 +54,7 @@ header {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: $accent;
+    color: $background;
     margin-top: 10px;
     @media only screen and (min-width: $mobile-width) {
       font-size: 40px;
@@ -66,7 +66,7 @@ header {
   margin: 10px;
 
   .link {
-    color: $accent;
+    color: $background;
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -83,24 +83,24 @@ header {
 
   .icon {
     text-align: center;
-    color: $accent;
+    color: $background;
     width: 20px;
     height: 20px;
     font-size: 20px;
     padding: 10px;
     margin: 5px;
     border-radius: 50%;
-    border: 2px solid $accent;
+    border: 2px solid $background;
     transition: all .7s;
 
     &:hover {
       color: $primary;
-      background: $accent;
+      background: $background;
     }
 
     &:active {
       color: $primary;
-      background: $accent;
+      background: $background;
     }
 
     @media only screen and (min-width: $mobile-width) {
@@ -112,7 +112,7 @@ header {
 }
 
 #down {
-  color: $accent;
+  color: $background;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -131,15 +131,15 @@ header {
     transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
-    fill: $accent;
+    fill: $background;
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: $secondary;
+      color: $accent;
     }
 
     &:active {
-      color: $secondary;
+      color: $accent;
     }
   }
 
