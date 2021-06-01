@@ -6,8 +6,10 @@
     <link href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}" rel="icon" sizes="16x16">
     <link href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}" rel="icon" sizes="32x32">
     <link href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}" rel="apple-touch-icon">
+    <link href="{{ '/assets/site.webmanifest' | relative_url }}" rel="manifest">
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+    {% seo %}
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 </head>

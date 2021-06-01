@@ -1,1 +1,9 @@
 source: src
+
+title: Karol Wojtasiuk
+tagline: Software Developer
+description: Personal website
+url: https://karolwojtasiuk.com
+author:
+  twitter: KarolWojtasiuk
+logo: /assets/favicon/android-chrome-512x512.png
