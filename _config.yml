@@ -7,8 +7,3 @@ url: https://karolwojtasiuk.com
 author:
   twitter: KarolWojtasiuk
 logo: /assets/favicon/android-chrome-512x512.png
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-198381849-1
-    anonymizeIp: true

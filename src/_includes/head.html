@@ -10,6 +10,7 @@
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
     {% seo %}
+    {% include analytics.html %}
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 </head>
