@@ -1,0 +1,45 @@
+- name: Chattle
+  description: Real-time chat server with support of permissions. Something like a Discord or Slack clone but open source and in C#.
+  url: https://github.com/KarolWojtasiuk/Chattle/
+  badges:
+    - name: .NET
+      color: "#641ce5"
+    - name: WebApp
+      color: "#0a9396"
+    - name: MongoDB
+      color: "#13aa52"
+    - name: SignalR
+      color: "#641ce5"
+
+- name: UniverseSharp
+  description: Library to facilitate physical calculations e.g. calculating cosmic velocity from given mass and radius.
+  url: https://github.com/KarolWojtasiuk/UniverseSharp
+  badges:
+    - name: .NET
+      color: "#641ce5"
+    - name: Library
+      color: "#ee9b00"
+    - name: Space
+      color: "#d13000"
+
+- name: OptivumParser
+  description: Application for parsing Optivum lesson plans and sharing them as an API.
+  url: https://github.com/KarolWojtasiuk/OptivumParser
+  badges:
+    - name: .NET
+      color: "#641ce5"
+    - name: WebApp
+      color: "#0a9396"
+    - name: API
+      color: "#6ca437"
+
+- name: PersonalOrganizer
+  description: Simple web kanban boards application, this project is a showcase of my skills in using Blazor.
+  url: https://github.com/KarolWojtasiuk/OptivumParser
+  badges:
+    - name: .NET
+      color: "#641ce5"
+    - name: WebApp
+      color: "#0a9396"
+    - name: Blazor
+      color: "#5c2d91"

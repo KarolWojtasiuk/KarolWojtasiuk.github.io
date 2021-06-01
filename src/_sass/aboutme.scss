@@ -4,7 +4,7 @@ main#about {
   max-width: 960px;
   padding: 30px 0;
   text-align: center;
-  @media only screen and (min-width: $mobile-width) {
+  @media only screen and (min-width: $desktop-width) {
     width: 80%;
   }
 
@@ -27,7 +27,7 @@ main#about {
 
 #technologies {
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -37,9 +37,9 @@ main#about {
     font-size: 16px;
   }
 
-  @media only screen and (min-width: $mobile-width2) {
+  @media only screen and (min-width: $desktop-width) {
     flex-wrap: nowrap;
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
@@ -50,5 +50,38 @@ main#about {
     width: 100%;
     max-width: 200px;
     height: auto;
+  }
+}
+
+#projects {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media only screen and (min-width: $desktop-width) {
+    width: 80%;
+  }
+}
+
+.project {
+  padding: 0 25px 50px;
+
+  h3 {
+    font-size: 25px;
+
+    @media only screen and (min-width: $desktop-width) {
+      font-size: 22px;
+    }
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+    color: $background;
+
+    &:hover, &:active {
+      color: $accent;
+    }
   }
 }

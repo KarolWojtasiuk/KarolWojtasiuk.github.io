@@ -8,8 +8,7 @@ $devicon-font-path: "../fonts/devicon";
 $primary: #e9d8a6;
 $accent: #ee9b00;
 $background: #001219;
-$mobile-width: 550px;
-$mobile-width2: 800px;
+$desktop-width: 800px;
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Montserrat:wght@400&display=swap');
 
@@ -20,6 +19,7 @@ $mobile-width2: 800px;
 @import "./devicon.scss";
 @import "./header.scss";
 @import "./aboutme.scss";
+@import "./badge.scss";
 @import "./footer.scss";
 
 html, body {

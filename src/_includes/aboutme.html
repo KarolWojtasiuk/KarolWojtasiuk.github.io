@@ -18,6 +18,17 @@
 
     <h1>Featured Projects</h1>
     <section id="projects">
-        
+        {% for project in site.data.projects %}
+        <div class="project">
+            <h3>{{ project.name }}</h3>
+            <div class="badges">
+                {% for badge in project.badges %}
+                {% include badge.html badge=badge %}
+                {% endfor %}
+            </div>
+            <p>{{ project.description }}</p>
+            <a href="{{ project.url }}">See more at GitHub</a>
+        </div>
+        {% endfor %}
     </section>
 </main>
