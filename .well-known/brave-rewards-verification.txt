@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: karolwojtasiuk.com
+Token: a1e8d970c873969eb93b376dc9d5c193867b1842983e805b61eddd2e77cc5f9c

@@ -1,0 +1,236 @@
+{
+  "fullScreen": {
+    "enable": false,
+    "zIndex": 0
+  },
+  "interactivity": {
+    "detectsOn": "window",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "grab",
+        "parallax": {
+          "force": 60
+        }
+      }
+    },
+    "modes": {
+      "grab": {
+        "distance": 250
+      },
+      "push": {
+        "quantity": 1
+      }
+    }
+  },
+  "particles": {
+    "links": {
+      "color": {
+        "value": "#ee9b00"
+      },
+      "distance": 150,
+      "enable": true,
+      "opacity": 0.4
+    },
+    "move": {
+      "attract": {
+        "rotate": {
+          "x": 600,
+          "y": 1200
+        }
+      },
+      "enable": true,
+      "outModes": {
+        "bottom": "out",
+        "left": "out",
+        "right": "out",
+        "top": "out"
+      }
+    },
+    "number": {
+      "density": {
+        "enable": true
+      },
+      "value": 50
+    },
+    "opacity": {
+      "value": {
+        "min": 0.25,
+        "max": 0.75
+      },
+      "animation": {
+        "enable": true,
+        "speed": 1,
+        "minimumValue": 0.25
+      }
+    },
+    "shape": {
+      "type": "char",
+      "options": {
+        "char": [
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#623697"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#1384c8"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#68217a"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#f68b1f"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#68217a"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#4faa41"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#fff"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#f34f29"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#fff"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#e54d26"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#3d8fc6"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#019bc6"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#41b883"
+            },
+            "weight": "400"
+          },
+          {
+            "font": "Devicon",
+            "style": "",
+            "value": [
+              ""
+            ],
+            "particles": {
+              "color": "#f0db4f"
+            },
+            "weight": "400"
+          }
+        ]
+      }
+    },
+    "size": {
+      "value": 25
+    }
+  }
+}
