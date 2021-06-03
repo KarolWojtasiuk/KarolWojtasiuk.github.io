@@ -24,7 +24,7 @@
 
 - name: OptivumParser
   description: Application for parsing Optivum lesson plans and sharing them as an API.
-  url: https://github.com/KarolWojtasiuk/PersonalOrganizer
+  url: https://github.com/KarolWojtasiuk/OptivumParser
   badges:
     - name: .NET
       color: "#641ce5"
@@ -35,7 +35,7 @@
 
 - name: PersonalOrganizer
   description: Simple web kanban boards application, this project is a showcase of my skills in using Blazor.
-  url: https://github.com/KarolWojtasiuk/OptivumParser
+  url: https://github.com/KarolWojtasiuk/PersonalOrganizer
   badges:
     - name: .NET
       color: "#641ce5"
